@@ -1,33 +1,48 @@
-<% if(theme.fun_features.typing.enable && page.subtitle !== false){ %>
-  <%- js_ex(theme.static_prefix.typed, "/typed.min.js") %>
+<% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
+  <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
   <script>
-    function typing(id, title){
-        var typed = new Typed('#' + id, {
-            strings: [
-              '  ',
-              title + "&nbsp;",
-            ],
-            cursorChar: "<%- theme.fun_features.typing.cursorChar %>",
-            typeSpeed: <%- theme.fun_features.typing.typeSpeed %>,
-            loop: <%- theme.fun_features.typing.loop %>,
-        });
-        typed.stop();
-        $(document).ready(function () {
-            $(".typed-cursor").addClass("h2");
-            typed.start();
-        });
-    }
-    <% if(is_post()) { %>
-        typing("subtitle", "<%- data.subtitle %>")
-    <% } else if(theme.index.hitokoto.enable){ %>
-        fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-           typing("hitokoto", data.hitokoto)
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      <% if (is_home() && theme.index.slogan.api && theme.index.slogan.api.enable) { %>
+        jQuery.ajax({
+          type: '<%= theme.index.slogan.api.method %>',
+          url: '<%= theme.index.slogan.api.url %>',
+          headers: <%- JSON.stringify(theme.index.slogan.api.headers || {}) %>,
+          dataType: 'json',
+          success: function(result) {
+            var apiText;
+            if (result) {
+              var keys = '<%= theme.index.slogan.api.keys %>'.split(',');
+              if (result instanceof Array) {
+                result = result[0];
+              }
+              for (const k of keys) {
+                var value = result[k];
+                if (typeof value === 'string') {
+                  apiText = value;
+                  break;
+                } else if (value instanceof Object) {
+                  result = value;
+                }
+              }
+            }
+            apiText ? typing(apiText) : typing(text);
+          },
+          error: function(xhr, status, error) {
+            if (error) {
+              console.error('Failed to request <%= theme.index.slogan.api.url %>:', error);
+            }
+            typing(text);
+          }
         })
-        .catch(console.error)
-    <% } else { %>
-        typing("subtitle", "<%- data.subtitle %>")
-    <% } %>
+      <% } else { %>
+        typing(text);
+      <% } %>
+    })(window, document);
   </script>
 <% } %>
