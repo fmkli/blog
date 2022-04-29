@@ -103,3 +103,13 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  tags:
+  - {name: 加密博文, password: greatpassword}
+  - {name: 加密, password: greatpassword}
+  wrong_pass_message: 抱歉, 这个密码不对, 你再试试呗。
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
