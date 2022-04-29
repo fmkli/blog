@@ -806,7 +806,7 @@ valine:
 # See: https://waline.js.org/
 waline:
   serverURL: 'https://waline.imfmkli.top/'
-  path: 
+  path: window.location.pathname
   placeholder:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
