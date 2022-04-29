@@ -108,6 +108,7 @@ deploy:
 encrypt: # hexo-blog-encrypt
   abstract: 有东西被加密了, 请输入密码查看.
   message: 您好, 这里需要密码.
+  theme: xray
   tags:
   - {name: 加密博文, password: greatpassword}
   - {name: 加密, password: greatpassword}
