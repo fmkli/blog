@@ -344,6 +344,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "links", link: "/friends/", icon: "iconfont icon-link-fill" }
     - { key: "说说", link: "https://www.imfmkli.top/say.html", icon: "iconfont icon-pen" }
+    - { key: "关于", link: "/about/", icon: "" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
