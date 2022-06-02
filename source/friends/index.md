@@ -9,8 +9,8 @@ date: 2021-02-19 22:10:17
 <!-- more -->
 
 <div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.1.3/hexo/friends/friends.css"/>
-<script src="https://cdn.jsdelivr.net/npm/qexo-static@1.1.3/hexo/friends/friends.js"></script>
+<link rel="stylesheet" href="https://jsdfd.vercel.app/npm/qexo-static@1.1.3/hexo/friends/friends.css"/>
+<script src="https://jsdfd.vercel.app/npm/qexo-static@1.1.3/hexo/friends/friends.js"></script>
 <script>loadQexoFriends("qexo-friends", "https://admin.imfmkli.top")</script>
 
 网站要求：
@@ -26,7 +26,7 @@ date: 2021-02-19 22:10:17
 自助添加友链：（需要审核）
 
 <div id="friends-api"></div>
-<script src="https://cdn.jsdelivr.net/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
+<script src="https://jsdfd.vercel.app/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
 <script>qexo_friend_api("friends-api","https://admin.imfmkli.top/");</script>
 
 ---
