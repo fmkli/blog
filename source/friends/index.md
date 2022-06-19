@@ -3,7 +3,6 @@ title: 友链
 comments: false
 date: 2021-02-19 22:10:17
 ---
-
 # 好盆友滴友链！
 
 <!-- more -->
@@ -23,7 +22,7 @@ date: 2021-02-19 22:10:17
 简介:咕咕咕
 图片:[https://alpha-q3.sourcegcdn.com/2022/03/30/NAGqZhi7.jpg](https://alpha-q3.sourcegcdn.com/2022/03/30/NAGqZhi7.jpg)
 
-自助添加友链：（需要审核）
+自助添加友链：（需要审核，提交后请邮件通知我来审核）
 
 <div id="friends-api"></div>
 <script src="https://jsdfd.vercel.app/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
@@ -35,4 +34,3 @@ date: 2021-02-19 22:10:17
 1.
 
 ---
-
