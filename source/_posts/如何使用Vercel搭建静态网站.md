@@ -1,5 +1,5 @@
 ---
-title: {{ title }}
+title: 如何使用Vercel搭建静态网站
 date: 2022-07-08 19:32:20
 tags:
 ---
