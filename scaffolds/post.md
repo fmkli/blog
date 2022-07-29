@@ -2,6 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 tags:
+excerpt: 摘要
 theme: up
 password: ""
 abstract: 本文要密码！
