@@ -8,8 +8,8 @@ date: 2021-02-19 22:10:17
 <!-- more -->
 
 <div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://jsdfd.vercel.app/npm/qexo-static@1.1.3/hexo/friends/friends.css"/>
-<script src="https://jsdfd.vercel.app/npm/qexo-static@1.1.3/hexo/friends/friends.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
+<script src="https://unpkg.com/qexo-friends/Icarus/friends.js"></script>
 <script>loadQexoFriends("qexo-friends", "https://admin.imfmkli.top")</script>
 
 网站要求：
