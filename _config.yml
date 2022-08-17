@@ -123,3 +123,18 @@ feed:
   hub:
   content: true #是否显示全文，true为全部显示，反之为空，需要设置content_limit选项。如果为true不需要设置content_limit选项
   content_limit_delim: ' '
+
+# offline config passed to sw-precache.
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/index.html
+  - public/medias/192.png
+  - public/manifest.json
+  stripPrefix: public
+  verbose: false
+  runtimeCaching:
+    - urlPattern: /**/*
+      handler: cacheFirst
+      options:
+        origin: blog.imfmkli.top
