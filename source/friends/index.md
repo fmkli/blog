@@ -22,11 +22,16 @@ date: 2021-02-19 22:10:17
 简介:咕咕咕
 图片:[https://alpha-q3.sourcegcdn.com/2022/03/30/NAGqZhi7.jpg](https://alpha-q3.sourcegcdn.com/2022/03/30/NAGqZhi7.jpg)
 
-自助添加友链：（需要审核，提交后请邮件通知我来审核）
+请前往 [https://github.com/fmkli/fmkli/discussions](https://github.com/fmkli/fmkli/discussions) 开启一个新的 categories 为 友链申请 的 discussions ，格式如下  
 
-<div id="friends-api"></div>
-<script src="https://jsdfd.vercel.app/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
-<script>qexo_friend_api("friends-api","https://admin.imfmkli.top/");</script>
+名字:网站名字  
+链接:网站链接  
+简介:网站简介  
+图片:网站图片的链接  
+
+如果想在 鸽子主页 放置友链，请注明
+
+啥时候审核通过看站长啥时候上 github 咯
 
 ---
 
