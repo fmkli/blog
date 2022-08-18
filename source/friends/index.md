@@ -1,6 +1,6 @@
 ---
 title: 友链
-comments: false
+comment: false
 date: 2021-02-19 22:10:17
 ---
 # 好盆友滴友链！
