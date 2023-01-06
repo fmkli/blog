@@ -117,7 +117,7 @@ encrypt: # hexo-blog-encrypt
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
   
 feed:
-  type: rss2
+  type: atom
   path: atom.xml
   limit: 0 #显示多少篇博文，0为无限制
   hub:
