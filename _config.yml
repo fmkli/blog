@@ -118,7 +118,7 @@ encrypt: # hexo-blog-encrypt
   
 feed:
   type: rss2
-  path: rss2.xml
+  path: atom.xml
   limit: 0 #显示多少篇博文，0为无限制
   hub:
   content: true #是否显示全文，true为全部显示，反之为空，需要设置content_limit选项。如果为true不需要设置content_limit选项
