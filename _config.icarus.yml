@@ -186,13 +186,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 鸽鸽子Fmkli
+        author: 海平新涌
         # Author title
-        author_title: 一名天天咕咕咕的鸽鸽子
+        author_title: 一个海平铁路服务器中的联合城市建设集团
         # Author's current location
-        location: 坐标--China
+        location: 坐标--海平服务器
         # URL or path to the avatar image
-        avatar: https://www.imfmkli.top/fmkli.png
+        avatar: https://hpmtr.top/favicon.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
