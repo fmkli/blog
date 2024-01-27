@@ -12,7 +12,7 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 鸽子博客 | Fmkli的鸽子窝
+        name: 
         # The displayed name of the web application
         # when there is not enough space to display full name
         short_name: 鸽子博客
@@ -135,14 +135,9 @@ navbar:
     menu:
         Home: /
         Archives: /archives
-        links: /friends
-        说说: https://www.imfmkli.top/say.html
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Fmkli's GitHub:
-            icon: fab fa-github
-            url: https://github.com/fmkli
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -211,7 +206,7 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
