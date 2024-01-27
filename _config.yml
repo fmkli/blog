@@ -124,7 +124,7 @@ feed:
   content: true #是否显示全文，true为全部显示，反之为空，需要设置content_limit选项。如果为true不需要设置content_limit选项
   content_limit_delim: ' '
 
-skip_render: admin/*
+skip_render: "admin/*"
 
 backend:
   name: git-gateway # https://github.com/netlify/netlify-cms
