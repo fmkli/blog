@@ -249,6 +249,8 @@ widgets:
         position: left
         type: links
         # Names and URLs of the sites
+        links:
+            Fmkli: https://www.imfmkli.top
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
