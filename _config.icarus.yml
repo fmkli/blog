@@ -3,11 +3,11 @@ version: 5.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://www.imfmkli.top/pigen.png
+logo: https://hpmtr.top/favicon.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: //www.imfmkli.top/fmkli.png
+    favicon: https://hpmtr.top/favicon.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -29,37 +29,9 @@ head:
         icons:
             -
                 # The path to the image file
-                src: 'https://www.imfmkli.top/images/icons/128.png'
+                src: 'https://hpmtr.top/favicon.png'
                 # A string containing space-separated image dimensions
                 sizes: '128x128'
-                # A hint as to the media type of the image
-                type: 
-            -
-                # The path to the image file
-                src: 'https://www.imfmkli.top/images/icons/144.png'
-                # A string containing space-separated image dimensions
-                sizes: '144x144'
-                # A hint as to the media type of the image
-                type: 
-            -
-                # The path to the image file
-                src: 'https://www.imfmkli.top/images/icons/192.png'
-                # A string containing space-separated image dimensions
-                sizes: '192x192'
-                # A hint as to the media type of the image
-                type: 
-            -
-                # The path to the image file
-                src: 'https://www.imfmkli.top/images/icons/256.png'
-                # A string containing space-separated image dimensions
-                sizes: '256x256'
-                # A hint as to the media type of the image
-                type: 
-            -
-                # The path to the image file
-                src: 'https://www.imfmkli.top/images/icons/512.png'
-                # A string containing space-separated image dimensions
-                sizes: '512x512'
                 # A hint as to the media type of the image
                 type: 
     # Open Graph metadata
