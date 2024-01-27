@@ -29,7 +29,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: admin/*
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -115,9 +116,6 @@ encrypt: # hexo-blog-encrypt
   - {name: 加密, password: greatpassword}
   wrong_pass_message: 抱歉, 这个密码不对, 你再试试呗。
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
-
-
-skip_render: "admin/*"
 
 backend:
   name: git-gateway # https://github.com/netlify/netlify-cms
