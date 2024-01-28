@@ -63,4 +63,4 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
                 name: "menu"
                 widget: "list"
                 fields:
-                  {label: "地址名称", name: "Name", widget: "string", required: false} : {label: "地址", name: "WTF", widget: "string", required: false}
+                  {label: "地址名称", name: "Name", widget: "string", required: false}
