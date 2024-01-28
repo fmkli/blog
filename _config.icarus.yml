@@ -102,14 +102,14 @@ head:
     # URL or path to the website's RSS atom.xml
     rss: /atom.xml
 # Page top navigation bar configurations
-navbar:
-    # Navigation menu items
-    menu:
-        Home: /
-        Archives: /archives
-        About: /about
-    # Links to be shown on the right of the navigation bar
-    links:
+#navbar:
+#    # Navigation menu items
+#    menu:
+#        Home: /
+#        Archives: /archives
+#        About: /about
+#    # Links to be shown on the right of the navigation bar
+#    links:
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section

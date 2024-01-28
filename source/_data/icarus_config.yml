@@ -1,0 +1,9 @@
+navbar:
+    # Navigation menu items
+    menu:
+        Home: /
+        Archives: /archives
+        About: /about
+    # Links to be shown on the right of the navigation bar
+    links:
+# Page footer configurations
