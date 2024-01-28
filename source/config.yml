@@ -42,3 +42,4 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
           - {label: "标题", name: "title", widget: "string"}
           - {label: "内容", name: "body", widget: "markdown", required: false}
           - {label: "评论", name: "comments", widget: "boolean", default: true, required: false}
+
