@@ -48,7 +48,7 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
   - name: "settings"
     label: "settings"
     files:      
-      - file: "source/_data/icarus_config.yml"
+      - file: "source/_data/config.yml"
         name: "icarus [未完工，勿动]"
         label: "icarus 主题配置 [未完工，勿动]"
         editor:
@@ -138,4 +138,7 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
                 name: "items"
                 widget: "list"
                 fields:
-                  {label: "地址名称", name: "Name", widget: "string", required: false} : {label: "地址", name: "WTF", widget: "string", required: false}
+                  - {label: "网站名称", name: "title", widget: "string", required: false}
+                  - {label: "网址描述", name: "intro", widget: "string", required: false}
+                  - {label: "网站地址", name: "link", widget: "string", required: false}
+                  - {label: "网站图片", name: "avatar", widget: "image", required: false}
