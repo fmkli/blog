@@ -54,13 +54,88 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
         editor:
           preview: true      # 是否开启编辑预览
         fields:
-          - label: "头部链接"
+          - label: "首页"
+            name: "index"
+            widget: "object"
+            collapsed: true   # 是否折叠显示
+            fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
+          - label: "文章页"
+            name: "post"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "顶部图(默认)"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number" 
+              - label: "文章封面图(默认)"
+                name: "default_index_img"
+                widget: "image"
+          - label: "归档页"
+            name: "archive"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
+          - label: "分类页"
+            name: "category"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
+          - label: "标签页"
+            name: "tag"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
+          - label: "关于页"
+            name: "about"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
+          - label: "友链页面"
             name: "links"
             widget: "object"
             collapsed: true
             fields:
+              - label: "顶部图"
+                name: "banner_img"
+                widget: "image"
+              - label: "高度"
+                name: "banner_img_height"
+                widget: "number"
               - label: "项目"
-                name: "menu"
+                name: "items"
                 widget: "list"
                 fields:
-                  {label: "地址名称", name: "Name", widget: "string", required: false}
+                  {label: "地址名称", name: "Name", widget: "string", required: false} : {label: "地址", name: "WTF", widget: "string", required: false}
